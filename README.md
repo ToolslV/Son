@@ -6,4 +6,5 @@ pkg install make -y
 pkg install make-guile -y
 git clone --depth 32 https://github.com/ToolslV/Son
 cd Son
+bash Fix.sh
 make run
